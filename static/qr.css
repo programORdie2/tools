@@ -1,0 +1,9 @@
+body {background-image: url('https://i.stack.imgur.com/HkSBY.png'); background-attachment: fixed; background-size: stretch; background-size: auto 100%; }
+input[type=text], select {width: 80%; padding: 12px 20px; margin: 8px 10%; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;}
+input[type=text] {background-image: url('urlicon.png'); background-position: 10px 10px; background-repeat: no-repeat; padding-left: 40px; background-size: auto 50%;}
+input[type=text]:focus {background-color: lightblue;}
+button[type=submit] {width: 60%; background-color: #4CAF50; color: white; padding: 14px 20px; margin: 8px 0; border: none; border-radius: 4px; cursor: pointer;}
+button[type=submit]:hover {background-color: green;}
+div {border-radius: 5px; background-color: #f2f2f2; padding: 2px 20px 30px 20px; margin: 5% 30%;}
+label {width: 90%; margin: 8px 5%; font-family: "Roboto";}
+h1 {font-family: "Roboto"; font-size: 3.2rem;}

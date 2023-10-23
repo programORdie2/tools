@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../static/qr.css">
+<title>QR Code Generator</title>
+<link rel="icon" type="image/png" href="../static/faveicon.png" />
+</head>
+<body>
+<div>
+<center><h1>QR code Generator</h1></center>
+<form method="POST" action="/qr/generate">
+<label for="data">URL:</label>
+<br>
+<input type="text" name="data" placeholder="URL or text ..." required />
+<br>
+<label for="bgcolor">Background Color:</label>
+<br>
+<select name=bgcolors>
+<option value="white">White</option>
+<option value="yellow">Yellow</option>
+</select>
+<br>
+<label for="color">Main Color:</label>
+<br>
+<select name=colors>
+<option value="black">Black</option>
+<option value="blue">Blue</option>
+<option value="green">Green</option>
+<option value="red">Red</option>
+</select>
+<br>
+<center>
+<button type="submit">Generate QRcode</button>
+</center>
+</form>
+</div>
+</body>
+</html>
